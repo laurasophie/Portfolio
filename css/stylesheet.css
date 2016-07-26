@@ -24,16 +24,6 @@ div h2 {
   text-align:center;
 }
 
-p{
-  padding:10px;
-  text-decoration: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  text-transform:uppercase;
-  font-size: 12px;
-  color: black;
-
-}
-
 footer.row {
   text-align:center;
   width: 100%;
@@ -133,7 +123,11 @@ footer.row {
 }
 
 .article a {
-  color: black;
+  color: purple;
+}
+
+.article a:hover {
+  text-decoration: none;
 }
 
 .article__body {
